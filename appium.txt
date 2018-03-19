@@ -1,0 +1,5 @@
+[caps]
+platformName = "Android"
+deviceName = "emulator-5554"
+app = "/Users/brunomelo/Desktop/Condor/app-condor-debug.apk"
+appPackage = "br.com.izio"
