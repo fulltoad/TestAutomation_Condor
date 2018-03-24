@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     appium_console (2.8.1)
       appium_lib (~> 9, >= 9.8)
@@ -16,17 +16,41 @@ GEM
       json (>= 1.8)
       selenium-webdriver (~> 3.5)
     awesome_print (1.8.0)
+    backports (3.11.1)
     bond (0.5.1)
+    builder (3.2.3)
     childprocess (0.9.0)
       ffi (~> 1.0, >= 1.0.11)
     chronic_duration (0.10.6)
       numerizer (~> 0.1.1)
     coderay (1.1.2)
+    cucumber (3.1.0)
+      builder (>= 2.1.2)
+      cucumber-core (~> 3.1.0)
+      cucumber-expressions (~> 5.0.4)
+      cucumber-wire (~> 0.0.1)
+      diff-lcs (~> 1.3)
+      gherkin (~> 5.0)
+      multi_json (>= 1.7.5, < 2.0)
+      multi_test (>= 0.1.2)
+    cucumber-core (3.1.0)
+      backports (>= 3.8.0)
+      cucumber-tag_expressions (~> 1.1.0)
+      gherkin (>= 5.0.0)
+    cucumber-expressions (5.0.13)
+    cucumber-tag_expressions (1.1.1)
+    cucumber-wire (0.0.1)
+    diff-lcs (1.3)
     ffi (1.9.23)
+    gherkin (5.0.0)
     json (2.1.0)
     method_source (0.9.0)
     mini_portile2 (2.3.0)
+    multi_json (1.13.1)
+    multi_test (0.1.2)
     nokogiri (1.8.2)
+      mini_portile2 (~> 2.3.0)
+    nokogiri (1.8.2-x64-mingw32)
       mini_portile2 (~> 2.3.0)
     numerizer (0.1.1)
     pry (0.11.3)
@@ -43,11 +67,14 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   appium_console
   appium_lib
+  cucumber
   json
+  pry
 
 BUNDLED WITH
    1.16.1
